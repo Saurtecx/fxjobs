@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  } */
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: rgb(105, 167, 163);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #008000;
+  }
+  
+  button[type="button"] {
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+  }
+  
+  label {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rgb(105, 167, 163);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 5px gray;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: rgb(76, 122, 119);
+  }
+  
+ 
+  
+input[type="text"], 
+input[type="password"], 
+textarea {
+    font-family: "Roboto", sans-serif;
+    height: 2cm;
+    width: 15cm;
+}
+
+/* Style for radio button */
+input[type="radio"] {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+/* Style for radio button when checked */
+input[type="radio"]:checked {
+  background-color: rgb(105, 167, 163);
+  border-color: rgb(105, 167, 163);
+}
+
+input[type="radio"] {
+  /* Remove the default radio button styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Create the custom radio button */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #666;
+  margin-right: 10px;
+  vertical-align: middle;
+  /* Checked state */
+  &:checked {
+    background-color: #666;
+  }
+}
+
+input[type="checkbox"] {
+  /* Remove the default radio button styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Create the custom radio button */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  /* border-radius: 50%; */
+  border: 2px solid #666;
+  margin-right: 10px;
+  vertical-align: middle;
+  /* Checked state */
+  &:checked {
+    background-color: #666;
+  }
+}
+
+/* styles.css */
+
+.job-tile {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.job-tile h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-tile p {
+  margin: 0;
+}
+
+.job-tile a {
+  display: inline-block;
+  background-color: rgb(105, 167, 163);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.job-tile a:hover {
+  background-color: rgb(76, 122, 119);
+}
+
+/* .score-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.score-container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 40px;
+  color: rgb(121, 67, 148);
+} */
+
+
+
+.search-page{
+  margin-top: 10rem;
+}
+
+.search-page h1{
+  margin-left: 3rem;
+}
+
+.score-container {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.progress-bar-container {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.progress-bar-container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -.3rem;
+  font-size: 3rem;
+}
+
+.yscr{
+  font-size: 4rem;
+}
+
+.pp{
+  margin-left: 4rem;
+}

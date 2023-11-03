@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    /* margin: auto; */
+  }
+
+  .gtop{
+    margin-top: 8rem;
+  }
+  
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(105, 167, 163);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .analyse-button {
+    padding: 10px 20px;
+    background-color: rgb(105, 167, 163);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+
+  .learn-button {
+    padding: 10px 20px;
+    background-color: rgb(105, 167, 163);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 50rem;
+    cursor: pointer;
+  }
+
+  .practice-button {
+    padding: 10px 20px;
+    background-color: rgb(105, 167, 163);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  h1{
+    margin-left: 26rem;
+  }
+
+  .career-container {
+    margin-top: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* margin: 10px; */
+    margin-left: 2rem;
+  }
+
+  .career-container h2 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: rgb(105, 167, 163);
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    font-size: 3rem;
+  }
+  .career-container p{
+    margin-top: -1rem;
+    margin-left: 5rem;
+    font-weight: 1000;
+  }
+  

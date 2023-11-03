@@ -1,0 +1,90 @@
+.practice-container {
+    display: flex;
+    margin-top: 10%;
+  }
+  
+  .site-filter-container {
+    width: 30%;
+    margin-right: 1rem;
+  }
+  
+  .site-filter-heading {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .site-filter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .site-filter-item {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .site-filter-item:hover {
+    background-color: #eee;
+  }
+  
+  .site-filter-item.selected {
+    background-color: rgb(105, 167, 163);
+    color: #fff;
+  }
+  
+  .practice-heading {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .practice-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .practice-item {
+    margin-bottom: 1rem;
+  }
+  
+  .contest-card {
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  .contest-card {
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  
+  .contest-name {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contest-info {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contest-link {
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(105, 167, 163);
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contest-link:hover {
+    background-color: rgb(80, 167, 161);
+  }
+  

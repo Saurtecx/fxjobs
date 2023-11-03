@@ -1,0 +1,56 @@
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .container h2{
+    margin-left: 20rem;
+  }
+  
+  .container button{
+    margin-left: 1rem;
+  }
+  .search-container {
+    margin-left: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    min-width: 300px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+
+  
+  .youtube-results,
+  .udemy-results {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .card h4 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+  
