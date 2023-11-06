@@ -15,7 +15,7 @@ const UploadPage = () => {
   const handleSearch = async () => {
     const formData = new FormData();
     formData.append("file", file);
-    const response = await axios.post("http://127.0.0.1:5000/jobs/search", formData, {
+    const response = await axios.post("http://152.58.153.29:5000/jobs/search", formData, {
       headers: {
         "Content-Type": "multipart/form-data"
       }

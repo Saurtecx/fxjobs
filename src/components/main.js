@@ -213,7 +213,7 @@ const PageNine = (values) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(`http://127.0.0.1:5000/jobs/${values.role}/${values.location}`);
+      const response = await fetch(`http://152.58.153.29:5000/jobs/${values.role}/${values.location}`);
       const data = await response.json();
       setJobs(data);
     };
